@@ -21,10 +21,10 @@ export const Container = styled.div`
       &:first-child{
         color: var(--text-title);
       }
-      &.income{
+      &.entrada{
         color: var(--green);
       }
-      &.outcome{
+      &.saida{
         color: var(--red);
       }
     }
