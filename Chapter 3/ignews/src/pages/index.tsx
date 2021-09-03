@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { GetStaticProps } from 'next';
 import  Head  from 'next/head';
 import styles from'../../styles/home.module.scss'
@@ -32,7 +33,7 @@ export default function Home({product}:HomeProps) {
             <span>for {product.amount} /month</span>
           </p>
           <SubscribeButton priceId={product.priceId}/>
-        </section>
+        </section>     
         <img src="/images/avatar.svg" alt="coding girl" />
       </main>
     </>
